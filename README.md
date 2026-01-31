@@ -125,16 +125,6 @@ Audit logging per tenant
 
 Rate limiting per tenant
 
-Contributing
-
-Fork the repository
-
-Create a feature branch
-
-Commit clean, documented changes
-
-Open a pull request
-
 License
 
 MIT License
