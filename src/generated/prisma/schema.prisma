@@ -1,0 +1,16 @@
+// This is your Prisma schema file for Prisma 7
+// Only define provider in datasource, URLs live in prisma.config.ts
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Models can be added after introspection
+// Example: tables will be pulled from your existing DB with `npx prisma db pull`
+
+// You can leave it empty for now; Prisma will populate it when you run db pull
