@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # Database-mt
-Built with Node, Prisma, Postgres, JWT auth, Docker-ready, and tenant-aware RBAC baked in.
+Built with Node, Prisma, Postgres, JWT auth, Docker, and tenant-aware RBAC baked in.
+
 One backend app serves many tenants, all isolated by tenantId but sharing the same code and infrastructure.
 Uses a shared database by default, with every query scoped to the tenant from verified JWTs (no client trust).
 
