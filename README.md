@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Database-mt
+
+# Database-multi-tenant
 Built with Node, Prisma, Postgres, JWT auth, Docker, and tenant-aware RBAC baked in.
 
 One backend app serves many tenants, all isolated by tenantId but sharing the same code and infrastructure.
